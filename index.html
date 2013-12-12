@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<script src='facto.js'></script>
+	<body>
+		<script>
+			function sampler(){
+				var _input=prompt('Enter a Number');
+				alert(facto(_input));
+				var _try = confirm('Try Again?');
+				if(_try) sampler();
+			};
+
+			sampler();
+		</script>
+	</body>
+</html>
